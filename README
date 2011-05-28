@@ -1,0 +1,44 @@
+https://github.com/taku-o/vim-chardet
+
+------------------------------------------------------------------------------
+
+Display file encoding with command ':DetectFileEncoding'.
+
+------------------------------------------------------------------------------
+INSTALLATION
+
+1. Unzip chardet.zip, and copy to 'plugin', 'python' directory in
+   your 'runtimepath' directory.
+
+    $HOME/vimfiles/plugin or $HOME/.vim/plugin
+    -  detect.vim
+
+    $HOME/vimfiles/python or $HOME/.vim/python
+    -  chardet/*.py
+
+2. Restart vim editor.
+
+
+------------------------------------------------------------------------------
+USAGE
+
+Use command ':DetectFileEncoding',
+and so Vim Editor diplay detected file encoding.
+
+:DetectFileEncoding
+    detect and display current file encoding.
+
+:DetectFileEncoding {filepath}
+    detect and display selected file encoding.
+
+
+------------------------------------------------------------------------------
+COMMAND EXAMPLE
+
+:DetectFileEncoding
+    detect and display current file encoding.
+
+:DetectFileEncoding test.txt
+    detect and display 'test.txt' file encoding.
+
+
